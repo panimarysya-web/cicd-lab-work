@@ -1,4 +1,4 @@
-[200~{
+{
   "name": "cicd-lab-app",
   "version": "1.0.0",
   "description": "Simple app for CI/CD lab",
