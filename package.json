@@ -1,0 +1,24 @@
+[200~{
+  "name": "cicd-lab-app",
+  "version": "1.0.0",
+  "description": "Simple app for CI/CD lab",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint .",
+    "build": "npm run lint && npm test"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "eslint": "^8.50.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
